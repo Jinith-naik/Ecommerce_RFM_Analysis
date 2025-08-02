@@ -1,0 +1,54 @@
+# -----------------------------
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Data Files (if large or regenerable)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Streamlit Cache (if used later)
+.streamlit/
+**/__pycache__/
+
+# Temporary or OS files
+*.swp
+*.bak
+*.tmp
+~$*
+
+# Optional: Ignore very large files if hosted elsewhere
+# But .pbix, .xlsx, .pptx are tracked via Git LFS
+# DO NOT uncomment these if you want them in the repo
+
+# *.pbix
+# *.xlsx
+# *.pptx
+# *.csv
+# *.h5
+
+# Node/npm (if you ever use it)
+node_modules/
+
+# -----------------------------
